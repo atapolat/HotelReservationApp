@@ -2,6 +2,7 @@
     border: 1px solid #ddd;
     border-radius: 8px;
     margin: 16px;
+    margin-left: 80px;
     padding: 16px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s;    
@@ -145,6 +146,7 @@ li {
 @media only screen and (max-width: 768px) {
     .card-container {
         flex-direction: column; 
+        margin-left: 16px;
     }
 
     .img {
