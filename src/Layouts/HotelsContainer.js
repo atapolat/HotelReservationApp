@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import hotelData from '../Data/hotels.json';
-import { BrowserRouter as Router, Link, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import HotelList from '../Components/Hotels/HotelList';
 import HotelDetail from '../Components/Hotels/HotelDetail';
 import Navbar from '../Components/Navbar/Navbar';
