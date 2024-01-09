@@ -1,0 +1,81 @@
+.table {
+	width: 100%;
+	margin-bottom: 1rem;
+	color: #212529;
+	border-collapse: collapse;
+}
+  
+.table th,
+.table td {
+	padding: 0.75rem;
+	vertical-align: top;
+	border-top: 1px solid #dee2e6;
+}
+  
+.table thead th {
+	vertical-align: bottom;
+	border-bottom: 2px solid #dee2e6;
+}
+  
+.delete-button {
+	background: none;
+	border: none;
+	cursor: pointer;
+}
+  
+.delete-button:hover {
+	opacity: 0.8;
+}
+  
+.modal-container {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+  
+.modal-content {
+	background-color: #fff;
+	border: 1px solid rgba(0, 0, 0, 0.125);
+	border-radius: 0.25rem;
+	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+  
+.modal-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem;
+	border-bottom: 1px solid #dee2e6;
+}
+  
+.modal-title {
+	margin-bottom: 0;
+	line-height: 1.5;
+}
+  
+.modal-body {
+	position: relative;
+	padding: 2rem;
+}
+  
+.btn-close {
+	padding: 0.5rem 0.75rem;
+	margin: -0.5rem -0.75rem -0.5rem auto;
+	cursor: pointer;
+	background-color: transparent;
+	border: none;
+	font-size: 1.25rem;
+	font-weight: 700;
+	line-height: 1;
+	color: #fff;
+	opacity: 0.9;
+}
+  
+.btn-close:hover {
+	background-color: #1d5b99;
+	color: #000;
+	text-decoration: none;
+	opacity: 0.75;
+}
+  

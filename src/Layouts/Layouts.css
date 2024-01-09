@@ -1,0 +1,15 @@
+#cont1 {
+    display: flex;
+    align-items: flex-start; 
+}
+  
+#filterContainer {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 2670px;
+}
+
+#cont2 {
+    flex: 1; 
+}
+  
